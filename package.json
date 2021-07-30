@@ -1,0 +1,18 @@
+{
+  "name": "vanila-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./server/http.js",
+    "dev": "nodemon ./server/http.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "nodemon": "^2.0.12"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
